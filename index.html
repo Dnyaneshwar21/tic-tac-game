@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="heading">
+            Tic Tac Toe
+        </h1>
+    </div>
+    <div id="tictacgame">
+        <div class="grid-container1">
+            <div id="grid-item1" onclick="grid1()"></div>
+            <div id="grid-item2" onclick="grid2()"></div>
+            <div id="grid-item3" onclick="grid3()"></div>
+        </div>
+        <div class="grid-container1">
+            <div id="grid-item4" onclick="grid4()"></div>
+            <div id="grid-item5" onclick="grid5()"></div>
+            <div id="grid-item6" onclick="grid6()"></div>
+        </div>
+        <div class="grid-container1">
+            <div id="grid-item7" onclick="grid7()"></div>
+            <div id="grid-item8" onclick="grid8()"></div>
+            <div id="grid-item9" onclick="grid9()"></div>
+        </div>
+    </div>
+    <div id="restartgame">
+        <button onclick="newGame()">Restart Game</button>
+    </div>
+    <div id="playerturn">
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
